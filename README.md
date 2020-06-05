@@ -7,3 +7,24 @@ Sign up View
 
 Sign in View
 
+![image](https://user-images.githubusercontent.com/45738614/83865621-1333d480-a744-11ea-9275-c7dea4c4db9a.png)
+
+Singup as user the Firebase Auth 
+
+![image](https://user-images.githubusercontent.com/45738614/83866344-50e52d00-a745-11ea-845e-4f6bb079a7d9.png)
+
+
+Adding posts
+
+![image](https://user-images.githubusercontent.com/45738614/83866443-72461900-a745-11ea-8dbe-961224793172.png)
+
+
+After filling the info and Adding posts the homepage looks like that
+
+![image](https://user-images.githubusercontent.com/45738614/83866457-77a36380-a745-11ea-9ed2-74a89012900c.png)
+
+
+The Firebase database of log in user of posts , notifications , user and Follow
+
+![image](https://user-images.githubusercontent.com/45738614/83866512-8a1d9d00-a745-11ea-9e48-1fb454fe830d.png)
+
