@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "568614060172",
+    "firebase_url": "https://grindergram-ffffe.firebaseio.com",
+    "project_id": "grindergram-ffffe",
+    "storage_bucket": "grindergram-ffffe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:568614060172:android:9c39321e4068bc0c5cbba9",
+        "android_client_info": {
+          "package_name": "com.example.grindergramapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "568614060172-7so7q1k5s96jmq6q9q7p7gp1s9p6aa8e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8XKx3N2iJ5fLQ7dq8xWlQkb7V2GckzCc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "568614060172-7so7q1k5s96jmq6q9q7p7gp1s9p6aa8e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

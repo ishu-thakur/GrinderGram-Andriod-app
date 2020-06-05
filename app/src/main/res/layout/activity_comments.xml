@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CommentsActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar_layout_comments"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/notification_toolbar"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@android:color/white"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Notifications"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:maxLines="1"
+                    android:layout_centerVertical="true"
+                    android:textColor="@android:color/black">
+
+                </TextView>
+
+            </RelativeLayout>
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <ImageView
+        android:id="@+id/post_image_comments"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/app_bar_layout_comments"
+        android:src="@drawable/profile"
+        android:scaleType="centerCrop"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view_comments"
+        android:layout_below="@id/post_image_comments"
+        android:layout_margin="5dp"
+        android:layout_above="@id/comment_relative"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/comment_relative"
+        android:layout_alignParentBottom="true"
+        android:background="#fff"
+        android:padding="4dp"
+        >
+        
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_image_comments"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/profile"
+            >
+        </de.hdodenhof.circleimageview.CircleImageView>
+        
+        
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/add_comment"
+            android:layout_toRightOf="@id/profile_image_comments"
+            android:layout_toLeftOf="@id/post_comments"
+            android:hint="Comments"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="8dp"
+            />
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/post_comments"
+    android:textColor="@color/colorPrimary"
+    android:textStyle="bold"
+    android:text="Post"
+    android:layout_alignParentEnd="true"
+    android:layout_centerVertical="true"
+    android:textSize="18dp"
+    />
+
+
+
+    </RelativeLayout>
+    
+
+</RelativeLayout>
