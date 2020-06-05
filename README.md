@@ -1,5 +1,6 @@
 # GrinderGram-Andriod-app
-GOOGLE Project #30DaysOfKotlin,Firebase , Kotlin and 
+GOOGLE Project #30DaysOfKotlin
+Using Realtime Firebase and Ktx
 
 Sign up View
 
