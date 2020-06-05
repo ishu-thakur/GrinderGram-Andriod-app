@@ -11,7 +11,7 @@ Sign in View
 
 Singup as user the Firebase Auth 
 
-![image](https://user-images.githubusercontent.com/45738614/83866344-50e52d00-a745-11ea-845e-4f6bb079a7d9.png)
+![image](https://user-images.githubusercontent.com/45738614/83867005-4c6d4400-a746-11ea-86c3-18a52c82a0c2.png)
 
 
 Adding posts
